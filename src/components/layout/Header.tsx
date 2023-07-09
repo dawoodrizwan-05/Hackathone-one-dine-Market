@@ -1,4 +1,4 @@
-import logo from "/public/logo.webp"
+import logo from "/public/Logo.webp"
 import Image from "next/image" 
 import Link from "next/link"  
 
@@ -38,7 +38,7 @@ function Header() {
         </ul>
     </div>
   )
-  
+
 }
 
 export default Header
