@@ -22,7 +22,7 @@ function Hero() {
 
        {/*right*/}
          <div className='flex-1'>
-            <Image src={heroImage} alt="hero" />
+            <Image src={heroImage} alt="heroImage" />
          </div>
     </section>
   )
