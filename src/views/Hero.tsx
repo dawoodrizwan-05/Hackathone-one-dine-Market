@@ -7,7 +7,7 @@ import heroImage from "/public/hero-Img.webp"
 
 function Hero() {
   return (
-    <section className='flex' py-6>
+    <section className='flex flex-col lg:flex-row gap-y-10 py-6' >
        {/*left*/}
          <div className='flex-1'>
          <Badge className='py-3 px-6 rounded-lg bg-blue-200 text-blue-700 '>Sale 70 %</Badge>
