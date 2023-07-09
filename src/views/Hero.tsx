@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from "@/components/ui/button"
 import heroImage from "/public/hero-Img.webp"
 
+
 function Hero() {
   return (
     <section className='flex' py-6>
