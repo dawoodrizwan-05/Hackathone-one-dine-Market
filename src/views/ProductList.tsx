@@ -1,15 +1,16 @@
 import React from 'react'
-import Image from "next/image"
 import p1 from "/public/p1.webp"
+import ProductCard from '@/components/ProductCard'
 
 const ProductList = () => {
   return (
-    <div>
-        <Image src={p1} alt="product" />
-        <h3 className='font-bold text-lg'>Flex Sweatshirt</h3>
-        <p className='font-bold text-lg'>$175</p>
+    <div className='flex justify-evenly mt-16'>
+        <ProductCard title="Flex Sweatshirt" price={175} img={p1}/>
+        <ProductCard title="assjsj" price={14} img={p2}/>
+        <ProductCard title="asd" price={123} img={p3}/>
+       
     </div>
   )
 }
-
+ 
 export default ProductList
